@@ -9,7 +9,10 @@
 
 ## Screen Shot:
 outdoor daylight visual mode
-![ScreenShot](https://github.com/yishixie/childrenCalculator/blob/master/day.png?raw=true) 
+![ScreenShot](https://github.com/yishixie/childrenCalculator/blob/master/demo/day.png?raw=true) 
 
 dark room visual mode
-![ScreenShot](https://github.com/yishixie/childrenCalculator/blob/master/night.png?raw=true) 
+![ScreenShot](https://github.com/yishixie/childrenCalculator/blob/master/demo/night.png?raw=true) 
+
+view demo video:
+https://github.com/yishixie/childrenCalculator/blob/master/demo/calDemo.mov
