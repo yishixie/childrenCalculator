@@ -103,22 +103,6 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "childrenCalculator/ViewController.swift"
-            timestampString = "467489969.627277"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "394"
-            endingLineNumber = "394"
-            landmarkName = "visualMode(_:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "childrenCalculator/ViewController.swift"
             timestampString = "467485233.475362"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"

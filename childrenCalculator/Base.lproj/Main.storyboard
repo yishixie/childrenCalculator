@@ -92,7 +92,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWW-Ke-lB9">
                                 <rect key="frame" x="184" y="477" width="80" height="80"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.84685409489999997" green="0.80744097560000005" blue="0.90471117420000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.86471571909085942" green="0.74686092342467481" blue="0.90471117420000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="50"/>
                                 <state key="normal" title="3">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -160,7 +160,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7GD-2P-aWY">
                                 <rect key="frame" x="283" y="332" width="80" height="50"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.72079252280281425" green="0.8796685334129879" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.34124619826679903" green="0.56478851010101017" blue="0.37881332597273781" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="40"/>
                                 <state key="normal" title="➗">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -212,8 +212,8 @@
                                     <action selector="visualMode:" destination="BYZ-38-t0r" eventType="valueChanged" id="t1D-Zm-f77"/>
                                 </connections>
                             </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6730" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" translatesAutoresizingMaskIntoConstraints="NO" id="PEp-Ic-Yix">
-                                <rect key="frame" x="0.0" y="130" width="375" height="142"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6730" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="PEp-Ic-Yix">
+                                <rect key="frame" x="0.0" y="131" width="375" height="141"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.040318151924415686" green="0.20791206425069372" blue="0.29890703914141414" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="65"/>
@@ -239,8 +239,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvg-2R-6gT">
                                 <rect key="frame" x="282" y="567" width="80" height="80"/>
                                 <animations/>
-                                <color key="backgroundColor" red="1" green="0.85235652589999999" blue="0.38863196379999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="60"/>
+                                <color key="backgroundColor" red="0.61136758207070707" green="0.36511248785160172" blue="0.31723359017471381" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="63"/>
                                 <state key="normal" title="=">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>

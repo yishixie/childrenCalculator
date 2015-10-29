@@ -161,7 +161,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         lastButtonWasMode = false
     
         //get the rgb info for night mode
-        print(bequal.backgroundColor)
+        print(b3.backgroundColor)
         print(myLabel.backgroundColor)
         print(bdivide.backgroundColor)
         print(selectWindow.backgroundColor)
@@ -274,9 +274,74 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         //if the switch is on change to night mode
         visualSwitch = !visualSwitch
         if(visualSwitch){
-            visualEmoji.text = "     🌚"
+            visualEmoji.text = "     🌞"
+            self.view.backgroundColor = UIColor(red: 0.482697, green: 0.835938, blue: 0.727261, alpha: 1)
+            
+            b0.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+            self.b0.layer.cornerRadius = 30
+            
+            b1.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+            self.b1.layer.cornerRadius = 30
+            
+            b2.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+            self.b2.layer.cornerRadius = 30
+            
+            b3.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+            self.b3.layer.cornerRadius = 30
+            
+            b4.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+            self.b4.layer.cornerRadius = 30
+            
+            b5.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+            self.b5.layer.cornerRadius = 30
+            
+            b6.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+            self.b6.layer.cornerRadius = 30
+            
+            b7.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+            self.b7.layer.cornerRadius = 30
+            
+            b8.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+            self.b8.layer.cornerRadius = 30
+            
+            
+            b9.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+            self.b9.layer.cornerRadius = 30
+            
+            
+            self.bclear.layer.cornerRadius = 30
+            self.bclear.layer.borderColor = UIColor.whiteColor().CGColor
+            self.bclear.layer.borderWidth = 1
+            
+            
+            self.repeatNumber.layer.cornerRadius = 30
+            self.repeatNumber.layer.borderColor = UIColor.whiteColor().CGColor
+            self.repeatNumber.layer.borderWidth = 1
+            
+            bmultiply.backgroundColor = UIColor(red: 0.720793, green: 0.879669, blue: 1, alpha: 1)
+            self.bmultiply.layer.cornerRadius = 20
+            
+            bminus.backgroundColor = UIColor(red: 0.720793, green: 0.879669, blue: 1, alpha: 1)
+            self.bminus.layer.cornerRadius = 20
+            
+            bplus.backgroundColor = UIColor(red: 0.720793, green: 0.879669, blue: 1, alpha: 1)
+            self.bplus.layer.cornerRadius = 20
+            
+            bdivide.backgroundColor = UIColor(red: 0.720793, green: 0.879669, blue: 1, alpha: 1)
+            self.bdivide.layer.cornerRadius = 20
+            
+            bequal.backgroundColor = UIColor(red: 0.864716, green: 0.746861, blue: 0.904711, alpha: 1)
+            self.bequal.layer.cornerRadius = 20
+            
+            myLabel.textColor = UIColor.blackColor()
+            myLabel.backgroundColor = UIColor(red: 0.867936, green: 1, blue: 0.947783, alpha: 0.7)
+            selectWindow.backgroundColor = UIColor(red: 0.867936, green: 1, blue: 0.947783, alpha: 0.8)
             
 
+            
+            
+        }else{
+            visualEmoji.text = "🌚"
             self.view.backgroundColor = UIColor(red: 0.366967, green: 0.32422, blue: 0.403251, alpha: 1)
             b0.backgroundColor = UIColor(red: 0.933298, green: 0.758536, blue: 0.010837, alpha: 0.5)
             self.b0.layer.cornerRadius = 30
@@ -308,7 +373,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             b9.backgroundColor = UIColor(red: 0.933298, green: 0.758536, blue: 0.010837, alpha: 0.5)
             self.b9.layer.cornerRadius = 30
             
-
+            
             self.bclear.layer.cornerRadius = 30
             self.bclear.layer.borderColor = UIColor.blackColor().CGColor
             self.bclear.layer.borderWidth = 1
@@ -318,83 +383,17 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             self.repeatNumber.layer.borderColor = UIColor.blackColor().CGColor
             self.repeatNumber.layer.borderWidth = 1
             
-            bmultiply.backgroundColor = UIColor(red: 0.0403182, green: 0.207912, blue: 0.298907, alpha: 0.6)
-            bminus.backgroundColor = UIColor(red: 0.0403182, green: 0.207912, blue: 0.298907, alpha: 0.6)
-            bplus.backgroundColor = UIColor(red: 0.0403182, green: 0.207912, blue: 0.298907, alpha: 0.6)
-            bdivide.backgroundColor = UIColor(red: 0.0403182, green: 0.207912, blue: 0.298907, alpha: 0.6)
-            bequal.backgroundColor = UIColor(red: 0.0403182, green: 0.207912, blue: 0.298907, alpha: 0.6)
+            bmultiply.backgroundColor = UIColor(red: 0.341246, green: 0.564789, blue: 0.378813, alpha: 1)
+            bminus.backgroundColor = UIColor(red: 0.341246, green: 0.564789, blue: 0.378813, alpha: 1)
+            bplus.backgroundColor = UIColor(red: 0.341246, green: 0.564789, blue: 0.378813, alpha: 1)
+            bdivide.backgroundColor = UIColor(red: 0.341246, green: 0.564789, blue: 0.378813, alpha: 1)
+            bequal.backgroundColor = UIColor(red: 0.611368, green: 0.365112, blue: 0.317234, alpha: 1)
             
             myLabel.textColor = UIColor.whiteColor()
-            myLabel.backgroundColor = UIColor(red: 0.0403182, green: 0.207912, blue: 0.298907, alpha: 1)
-            self.myLabel.layer.cornerRadius = 25
+            myLabel.backgroundColor = UIColor(red: 0.0403182, green: 0.207912, blue: 0.298907, alpha: 0.6)
             
-            selectWindow.backgroundColor = UIColor(red: 0.0403182, green: 0.207912, blue: 0.298907, alpha: 0.6)
+            selectWindow.backgroundColor = UIColor(red: 0.0403182, green: 0.207912, blue: 0.298907, alpha: 0.8)
             
-        }else{
-            visualEmoji.text = "🌞"
-            self.view.backgroundColor = UIColor(red: 0.482697, green: 0.835938, blue: 0.727261, alpha: 1)
-            
-            b0.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
-            self.b0.layer.cornerRadius = 30
-            
-            b1.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
-            self.b1.layer.cornerRadius = 30
-            
-            b2.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
-            self.b2.layer.cornerRadius = 30
-            
-            b3.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
-            self.b3.layer.cornerRadius = 30
-            
-            b4.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
-            self.b4.layer.cornerRadius = 30
-            
-            b5.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
-            self.b5.layer.cornerRadius = 30
-            
-            b6.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
-            self.b6.layer.cornerRadius = 30
-            
-            b7.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
-            self.b7.layer.cornerRadius = 30
-            
-            b8.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
-            self.b8.layer.cornerRadius = 30
-
-            
-            b9.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
-            self.b9.layer.cornerRadius = 30
-
-            
-            self.bclear.layer.cornerRadius = 30
-            self.bclear.layer.borderColor = UIColor.whiteColor().CGColor
-            self.bclear.layer.borderWidth = 1
-            
-            
-            self.repeatNumber.layer.cornerRadius = 30
-            self.repeatNumber.layer.borderColor = UIColor.whiteColor().CGColor
-            self.repeatNumber.layer.borderWidth = 1
-            
-            bmultiply.backgroundColor = UIColor(red: 0.720793, green: 0.879669, blue: 1, alpha: 1)
-            self.bmultiply.layer.cornerRadius = 20
-            
-            bminus.backgroundColor = UIColor(red: 0.720793, green: 0.879669, blue: 1, alpha: 1)
-            self.bminus.layer.cornerRadius = 20
-            
-            bplus.backgroundColor = UIColor(red: 0.720793, green: 0.879669, blue: 1, alpha: 1)
-            self.bplus.layer.cornerRadius = 20
-            
-            bdivide.backgroundColor = UIColor(red: 0.720793, green: 0.879669, blue: 1, alpha: 1)
-            self.bdivide.layer.cornerRadius = 20
-            
-            bequal.backgroundColor = UIColor(red: 0.846854, green: 0.807441, blue: 0.904711, alpha: 1)
-            self.bequal.layer.cornerRadius = 20
-            
-            myLabel.textColor = UIColor.blackColor()
-            myLabel.backgroundColor = UIColor(red: 0.720793, green: 0.879669, blue: 1, alpha: 1)
-            self.myLabel.layer.cornerRadius = 25
-            
-            selectWindow.backgroundColor = UIColor(red: 0.867936, green: 1, blue: 0.947783, alpha: 0.7)
         }
     }
     
@@ -404,8 +403,73 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        myLabel.text = "Select the language"
+        myLabel.text = "0"
         speakThisString("number is fun")
+        
+        //start look
+        visualEmoji.text = "     🌞"
+        self.view.backgroundColor = UIColor(red: 0.482697, green: 0.835938, blue: 0.727261, alpha: 1)
+        
+        b0.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+        self.b0.layer.cornerRadius = 30
+        
+        b1.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+        self.b1.layer.cornerRadius = 30
+        
+        b2.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+        self.b2.layer.cornerRadius = 30
+        
+        b3.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+        self.b3.layer.cornerRadius = 30
+        
+        b4.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+        self.b4.layer.cornerRadius = 30
+        
+        b5.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+        self.b5.layer.cornerRadius = 30
+        
+        b6.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+        self.b6.layer.cornerRadius = 30
+        
+        b7.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+        self.b7.layer.cornerRadius = 30
+        
+        b8.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+        self.b8.layer.cornerRadius = 30
+        
+        
+        b9.backgroundColor = UIColor(red: 0.971788, green: 0.840634, blue: 0.407131, alpha: 1)
+        self.b9.layer.cornerRadius = 30
+        
+        
+        self.bclear.layer.cornerRadius = 30
+        self.bclear.layer.borderColor = UIColor.whiteColor().CGColor
+        self.bclear.layer.borderWidth = 1
+        
+        
+        self.repeatNumber.layer.cornerRadius = 30
+        self.repeatNumber.layer.borderColor = UIColor.whiteColor().CGColor
+        self.repeatNumber.layer.borderWidth = 1
+        
+        bmultiply.backgroundColor = UIColor(red: 0.720793, green: 0.879669, blue: 1, alpha: 1)
+        self.bmultiply.layer.cornerRadius = 20
+        
+        bminus.backgroundColor = UIColor(red: 0.720793, green: 0.879669, blue: 1, alpha: 1)
+        self.bminus.layer.cornerRadius = 20
+        
+        bplus.backgroundColor = UIColor(red: 0.720793, green: 0.879669, blue: 1, alpha: 1)
+        self.bplus.layer.cornerRadius = 20
+        
+        bdivide.backgroundColor = UIColor(red: 0.720793, green: 0.879669, blue: 1, alpha: 1)
+        self.bdivide.layer.cornerRadius = 20
+        
+        bequal.backgroundColor = UIColor(red: 0.864716, green: 0.746861, blue: 0.904711, alpha: 1)
+        self.bequal.layer.cornerRadius = 20
+        
+        myLabel.textColor = UIColor.blackColor()
+        myLabel.backgroundColor = UIColor(red: 0.867936, green: 1, blue: 0.947783, alpha: 0.7)
+        selectWindow.backgroundColor = UIColor(red: 0.867936, green: 1, blue: 0.947783, alpha: 1)
+        
         // Do any additional setup after loading the view, typically from a nib.
         
     }
