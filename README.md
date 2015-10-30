@@ -1,11 +1,12 @@
 # childrenCalculator
-# is an calculator app for children
-+ Selection of 38 languages
-+ Read all the number input
-+ Repeat the number
-+ switch between day/night mode
-+ Written in Swift
-+ Video demo
+# is an calculator app *for children*
++ Selection of 38 languages *for children*
++ Softer slow pronounciation *for children*
++ Read individual number input *for children*
++ Repeat the number *for children*
++ Switch between day/night modes *for children*
++ Written in Swift *for children*
++ ...only for *for children*
 
 ## Screen Shot:
 outdoor daylight visual mode
