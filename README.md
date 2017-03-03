@@ -16,5 +16,3 @@ outdoor daylight visual mode
 dark room visual mode
 ![ScreenShot](https://github.com/yishixie/childrenCalculator/blob/master/demo/night.png?raw=true) 
 
-view demo video:
-https://github.com/yishixie/childrenCalculator/blob/master/demo/demoCalculator.mov
